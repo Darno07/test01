@@ -17,6 +17,11 @@ namespace test009
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+
+
+            samochod01 = new Samochod(marka, model, pojemnosc, iloscPaliwa, pojemnoscBaku);
+
         }
     }
 }
